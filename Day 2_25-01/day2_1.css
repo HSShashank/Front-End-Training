@@ -1,0 +1,35 @@
+* {
+  color: crimson;
+}
+div p {
+  color: green;
+}
+div > p {
+  color: chartreuse;
+}
+h1 + p {
+  color: black;
+  background-color: lawngreen;
+}
+/* h1 {
+  color: brown;
+} */
+.first {
+  color: blue;
+}
+#h2div2 {
+  color: blueviolet;
+}
+.inp:focus {
+  background-color: black;
+}
+h2:hover {
+  color: white;
+}
+.para:active {
+  background-color: white;
+  color: white;
+}
+#a2:first-child {
+  background-color: darkseagreen;
+}

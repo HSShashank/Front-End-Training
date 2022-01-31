@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bar{
+    margin-right: 50vw;
+    width: 50vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-flow: row nowrap; */
+    justify-content: space-evenly;
+}
+.bar2{
+    margin-left: 50vw;
+    width: 50vw;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.menu{
+    color: yellow;
+}
+.menu1{
+    color: black;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+   max-width: 400px;
+   min-height: 200px;
+   margin: 10px;
+   padding: 20px;
+   border-top: 3px solid red;
+   border-right: 5px double darkred;
+   border-left: 3px dashed black;
+   border-bottom: 3px solid red;
+   text-align: center;
+
+}
+.box2{
+    min-width: 200px;
+    max-height: 200px;
+    margin: 20px 40px;
+    /* border: 3px double blue; */
+    border-top: 3px solid chartreuse;
+    border-right: 5px double darkcyan;
+    border-left: 3px dashed black;
+    border-bottom: 3px solid red;
+    text-align: center;
+    border-radius: 2em;
+    padding: 1em;
+    text-align: center;
+}
+.box2:hover{
+    background-color:lightpink;
+}
+
