@@ -114,13 +114,10 @@
   #t2 {
     font-family: "Barlow", sans-serif;
     font-weight: 600;
-  
     height: 4vw;
     width: 35vw;
     font-size: 1.2vw;
-  
     display: flex;
-  
     align-items: center;
     align-content: baseline;
   }
@@ -128,7 +125,6 @@
     color: #33353c;
     border-radius: 2vw;
     background-color: #fffbf8;
-  
     padding: 1vw;
     align-items: center;
   }
