@@ -7,8 +7,8 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: hsl(210, 46%, 95%);
-    /* padding-top: 100px; */
-    padding: 10em;
+    padding-top: 150px;
+    padding-left: 300px;
 }
 .container{
     /* background-color: white; */
@@ -18,7 +18,7 @@ body{
     height: 250px;
     justify-content: flex-start;
     /* border: 3px solid red; */
-    border-radius: 10%;
+    /* border-radius: 10px; */
 
 }
 .leftbox-img{
@@ -30,17 +30,20 @@ body{
     max-width: 100%;
     height: 100%;
     object-fit: cover;
-    /* border-r: 20%; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .rightbox{
-    padding: 20px;
+    padding: 35px;
     display: flex;
     max-width: 65%;
     height: 100%;
     flex-direction: column;
     background-color: white;
     justify-content: space-evenly;
-    /* gap: 10px; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    gap: 10px;
     /* border: 4px solid blue; */
 }
 h3{
@@ -71,7 +74,7 @@ p{
 .person{
     width: 45px;
     height: 45px;
-    /* border: 1px solid black; */
+    /* border: 1px solid black; */       
     border-radius: 50%;
 
 }
@@ -83,12 +86,17 @@ p{
     color: hsl(214, 17%, 51%);
     /* font-size: 17px; */
 }
+#share-btn{
+    border: none;
+    padding: 0;
+    background: none;
+}
 .share-icon{
     /* border: none; */
-    padding: 10px;
+    padding: 8px;
     background-color: hsl(210, 46%, 95%);
-    max-width: 40px;
-    height: 40px;
+    max-width: 30px;
+    height: 30px;
     /* border: 1px solid black; */
     border-radius: 50%;
     object-fit:contain;
@@ -109,14 +117,14 @@ p{
     height: 50px;
     display: flex;
     /* border: 1px solid red; */
-    border-radius: 5%;
+    border-radius: 5px;
     /* flex-flow: row nowrap; */
     justify-content: space-around;
     background-color: hsl(217, 19%, 35%);
     position: absolute;
     align-items: center;
-    top: 270px;
-    left: 650px;
+    top: 17rem;
+    right: 14rem;
 }
 .images{
     /* border: 1px solid red ; */
@@ -124,4 +132,12 @@ p{
     display: flex;
     justify-content: space-between;
     gap: 12px;
+}
+.arrow-down{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: hsl(217, 19%, 35%);
+    transform: rotate(45deg);
+    top: 27px;
 }
