@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2B2D37;
+}
+h2{
+width: 100%;
+height: 10%;
+/* border: 1px solid red; */
+padding: 0.5em;
+text-align: center;
+color: #08c898;
+font-family: 'Roboto Condensed', sans-serif;
+background-color: #09090B;
+font-weight: 200;
+}
+.container-body{
+    text-align: center;
+    /* background-color: #2B2D37; */
+}
+#display-time{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    /* border: 1px solid black; */
+    text-align: center;
+    color: #08c898;
+}
+li{
+    margin: 0.5em;
+    /* background-color: #3D5858; */
+    font-size: 20px;
+    color: #8EA8C3;
+    border: 2px solid #616164;
+    border-radius: 10px;
+    /* padding: 0.5em; */
+}
+img{
+    width: 2em;
+    height: 2em;
+    background-color: #00BFB3;
+}
+.del-task{
+    border: none;
+    padding: 1em;
+    background: none ;
+}
+.input-items{
+    /* position: relative; */
+    /* top: 50%; */
+    display: flex;
+}
+#add-task{
+    background-color: white;
+    border: none;
+    padding: 0.5em;
+}
+#add-btn{
+    background-color: #00F9B7;
+    border: none;
+    padding: 1em;
+}
