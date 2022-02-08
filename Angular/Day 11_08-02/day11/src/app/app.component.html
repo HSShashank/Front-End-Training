@@ -1,0 +1,51 @@
+<!-- <html lang="en"> -->
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div [ngClass]="'container'">
+        <div [ngClass]="'leftbox-img'">
+<img [ngClass]="'main-img'" src="../assets/images/drawers.jpg" alt="">
+        </div>
+        <div [ngClass]="'rightbox'">
+            <h3>Shift the overall look and feel by <br> adding these wonderful 
+                touches to <br> furniture in your home</h3>
+  <p>Ever been in a room and felt like something was missing? <br> Perhaps 
+    it felt slightly bare and uninviting. I’ve got some <br> simple tips 
+    to help you make any room feel complete.</p>
+    <div [ngClass]="'name'">
+        <img [ngClass]="'person'" src="../assets/images/avatar-michelle.jpg" alt="">
+        <div [ngClass]="'info'">
+            <h5>Michelle Appleton</h5> 
+            <p [ngClass]="'date'">28 Jun 2020</p> 
+        </div>
+           <button id="share-btn" (click)="toggle()">
+            <img [ngClass]="'share-icon'" src="../assets/images/icon-share.svg" alt="">
+           </button>
+           <div id="share" [ngClass]="val?'unshow':'show'" >
+                   <p [ngClass]="'share-text'">S H A R E</p>
+                   <div [ngClass]="'images'">
+                       <a href="https://www.facebook.com/" target="_blank">
+                        <img src="../assets/images/icon-facebook.svg" alt=""> 
+                       </a>
+                       <a href="https://www.twitter.com/" target="_blank">
+                        <img src="../assets/images/icon-twitter.svg" alt=""> 
+                       </a>
+                       <a href="https://www.pinterest.com/" target="_blank">
+                        <img src="../assets/images/icon-pinterest.svg" alt=""> 
+                       </a>          
+               </div>
+               <div [ngClass]="'arrow-down'"></div>
+           </div>
+           
+    </div>
+        </div>
+    </div>
+</body>
+<!-- </html> -->
