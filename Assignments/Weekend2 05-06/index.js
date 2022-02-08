@@ -1,7 +1,7 @@
 //Function to add and delete tasks
 function add_del_Task(){
     let task = document.createElement("li");
-    let taskValue = document.getElementById("add-task").value
+    let taskValue = document.getElementById("add-task").value;
     let todo = document.getElementById("todo-list");
 
     if (taskValue === ""){

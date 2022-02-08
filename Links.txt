@@ -1,0 +1,15 @@
+Important links
+
+For design
+https://dribbble.com/
+https://www.awwwards.com/
+
+For color schemes
+https://coolors.co/595959-808f85-91c499-f2e9dc-cfd11a
+https://collectui.com/
+https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=18FFFF&secondary.color=18FFFF&primary.text.color=000000&secondary.text.color=00E676
+https://www.canva.com/colors/color-palette-generator/
+
+
+Other links
+https://getbootstrap.com/docs/5.1/layout/breakpoints/

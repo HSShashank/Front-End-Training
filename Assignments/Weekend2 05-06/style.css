@@ -26,6 +26,7 @@ font-weight: 200;
 #display-time{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 30px;
+    font-weight: 200;
     /* border: 1px solid black; */
     text-align: center;
     color: #08c898;
@@ -50,8 +51,8 @@ img{
     background: none ;
 }
 .input-items{
-    /* position: relative; */
-    /* top: 50%; */
+    position: absolute;
+    top: 80px;
     display: flex;
 }
 #add-task{
@@ -64,3 +65,4 @@ img{
     border: none;
     padding: 1em;
 }
+/* https://few89.csb.app/ */
