@@ -121,6 +121,7 @@ p{
     /* flex-flow: row nowrap; */
     justify-content: space-around;
     background-color: hsl(217, 19%, 35%);
+    opacity: 0.9;
     position: absolute;
     align-items: center;
     top: 17.5rem;

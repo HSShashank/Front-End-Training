@@ -1,1 +1,10 @@
 <p>test works!</p>
+<table>
+    <tr>
+        <th *ngFor="let head of getHeader">{{head}}</th>
+    </tr>
+    <tr *ngFor="let items of getData">
+        <td *ngFor="let item of items | keyvalue"> {{item.value}}</td>
+    </tr>
+</table>
+

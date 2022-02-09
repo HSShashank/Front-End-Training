@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProvideDataService } from '../provide-data.service';
 
 @Component({
   selector: 'app-test',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
-  constructor() { }
+  constructor(service:ProvideDataService) { 
+    this.getHeader = service.arrHead;
+    this.getData = service.arr;
+  }
 
   ngOnInit(): void {
   }
-
+getHeader: any;
+getData:any;
 }

@@ -1,6 +1,11 @@
-.two{
+/* .two{
     background-color: blueviolet;
 }
 .three{
     background-color: yellowgreen;
+} */
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
 }

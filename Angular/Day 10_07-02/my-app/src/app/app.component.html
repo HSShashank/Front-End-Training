@@ -10,4 +10,50 @@
 
 
 <!-- Task3 -->
-<h1 [ngStyle] ="{ 'background-color': status == 'error' ? 'red' : 'orange' }"> Hello</h1>
+<!-- <h1 [ngStyle] ="{ 'background-color': status == 'error' ? 'red' : 'orange' }"> Hello</h1> -->
+
+<!-- Task4 -->
+
+<!-- <div class="odd">
+    <h2 *ngFor="let i of arr">{{i}}</h2>
+</div>
+<h2 *ngIf="'var'">True </h2> 
+
+<h2 *ngIf = "vari else elseBlock"> If block </h2>
+
+<ng-template #elseBlock>
+ <h2>Else block</h2> 
+</ng-template>
+
+<h2 *ngIf = "vari then ThenBlock else ElseBlock"> If block </h2>
+
+<ng-template #ThenBlock>
+    <h2>Then block</h2> 
+   </ng-template>
+
+<ng-template #ElseBlock>
+ <h2>Else block 1</h2> 
+</ng-template>
+
+<div [ngSwitch]="color">
+    <h1 *ngSwitchCase="'red'"> Red</h1>
+    <h1 *ngSwitchCase="'blue'"> Blue</h1>
+    <h1 *ngSwitchCase="'yellow'"> Yellow</h1>
+    <h1 *ngSwitchDefault>Default</h1>
+</div> -->
+
+<!-- Task 5 -->
+
+<!-- <h1> {{'Shashank' | uppercase}}</h1> -->
+<!-- <app-test></app-test> -->
+
+<!-- Routing -->
+
+<nav>
+    <a href="" routerLink="/home">Home</a>
+    <a href="" routerLink="/about">About</a>
+    <a href="" routerLink="/contact">Contact</a>
+    <a href="" routerLink="/login">Login</a>
+</nav>
+
+<router-outlet></router-outlet>

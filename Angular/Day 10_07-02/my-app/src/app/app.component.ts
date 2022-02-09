@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
-  status = "error"; 
+  arr = [1,3,5,7,9]; 
+  vari = false;
+  color = "yellow"
   }
 
 
@@ -29,3 +31,5 @@ export class AppComponent {
 
 
 // task3
+
+// task 4
