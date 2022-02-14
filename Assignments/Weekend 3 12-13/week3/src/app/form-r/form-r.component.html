@@ -1,0 +1,32 @@
+<body>
+    <div [ngClass]="'container'">
+      <div [ngClass]="'left'">
+        <h1>
+          Learn to code by watching others
+        </h1>
+        <p [ngClass]="'small-text'">
+          See how experienced developers solve problems in real-time. 
+          Watching scripted tutorials is great, but understanding how
+          developers think is invaluable.
+        </p>
+      </div>
+      <div [ngClass]="'right'">
+        <form action="" [formGroup]="freeTrial" (ngSubmit)="onSubmit()">
+            <input type="text" id="name" class="form-control" formControlName="name" placeholder="First Name" required>
+            <div *ngIf="name.invalid && (name.dirty || name.touched)"
+            class="alert alert-danger">
+          <small *ngIf="name.errors?.['required']">
+            Name is required.
+          </small>
+            </div>
+
+            <input type="text" formControlName="lName" placeholder="Last Name">
+            <input type="email" formControlName="email" placeholder="Email Address">
+            <input type="password" formControlName="pwd" placeholder="Password">
+        <button [disabled]="!freeTrial.valid">CLAIM YOUR FREE TRIAL</button>
+
+     
+    </form>
+      </div>
+    </div>
+  </body>

@@ -11,6 +11,8 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { ErrorComponent } from './error/error.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FormReactiveComponent } from './form-reactive/form-reactive.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +25,13 @@ import { ErrorComponent } from './error/error.component';
     LoginComponent,
     SignupComponent,
     ErrorComponent,
+    FormReactiveComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
