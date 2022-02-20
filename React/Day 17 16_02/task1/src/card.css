@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 20%;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    border: 1px solid red;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.nums{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: flex-start;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.logo{
+    border: 1px solid red;
+    max-width: 10px;
+    /* height: 100%; */
+    object-fit: cover;
+    border-radius: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

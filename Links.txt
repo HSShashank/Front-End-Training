@@ -13,3 +13,5 @@ https://www.canva.com/colors/color-palette-generator/
 
 Other links
 https://getbootstrap.com/docs/5.1/layout/breakpoints/
+
+
